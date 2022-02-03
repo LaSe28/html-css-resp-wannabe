@@ -77,86 +77,108 @@ img {
 
 
 @media screen and (max-width: 420px) {
-  *{
-    margin: 0;
-    padding: 0;
-  }
   
-  body{
-    background-color: #F2F2D1;
+  *{
+    padding: 0;
+    margin: 0;
+    float: none;
   }
 
   .row{
+    padding: 2rem 0;
     margin: 0;
-    padding: 0;
   }
-  
-  .container{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  /* sezione lezioni */
 
+
+/* prima sezione */
+
+  #lezioni{
+    background-color:#F2F2D1;
+  }
 
   #lezioni .row{
-    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
   }
-  
-  #lezioni .row>.right,
-  #lezioni .row>.left{
-    float: none;
+  #lezioni .row>.left,
+  #lezioni .row>.right {
     width: 100%;
   }
 
-  #lezioni .right img,
-  #lezioni .left img{
-    transform: scale(.7, 0.7);
-  }
-
-  /* sezione steps */
-
-  #steps .row{
-    max-width: 420px;
-  }
-  
-  #steps .row>.right,
-  #steps .row>.central,
-  #steps .row>.left{
-    float: none;
-    width: 100%;
-  }
-
-  #steps .right img,
-  #steps .left img{
-    transform: scale(.7, 0.7);
-  }
-
-  /* sezione why */
-
-  #why.container{
-    max-width: 420px;
-    background-color: #F2F2D1;
-    margin-bottom: 2rem;
-  }
-
-  #why .row{
-    width: 100%;
-  }
-
-  #why .row>.first,
-  #why .row>.second,
-  #why .row>.third {
-    width: 100%;
-
-  }
-
-  #why .row img {
-    background-color: #428bca;
-    border-radius: 50%;
-    padding: 30px;
+  #lezioni .row>.left img,
+  #lezioni .row>.right img{
     transform: scale(.7, .7);
   }
 
+
+  /* seconda sezione */
+
+  #steps .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    margin: 2rem 0;
+  }
+  
+  #steps .row>.left img,
+  #steps .row>.right img{
+    transform: scale(.7, .7);
+  }
+
+
+
+  /* terza sezione */
+
+  #why{
+    background-color:#F2F2D1;
+  }
+
+  #why .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  
+  
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  width: 100%;
+  margin-top: 80px;
 }
 
+  #why .row>.first img,
+  #why .row>.second img,
+  #why .row>.third img{
+    transform: scale(.7, .7);
+  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
