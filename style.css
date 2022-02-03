@@ -101,7 +101,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 420px;
+    max-width: 420px;
   }
   
   #lezioni .row>.right,
@@ -121,7 +121,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 420px;
+    max-width: 420px;
   }
   
   #steps .row>.right,
@@ -139,7 +139,7 @@ img {
   /* sezione why */
 
   #why.container{
-    width: 420px;
+    max-width: 420px;
     background-color: #F2F2D1;
     margin-bottom: 2rem;
   }
