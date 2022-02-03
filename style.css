@@ -97,10 +97,8 @@ img {
   }
   /* sezione lezioni */
 
+
   #lezioni .row{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     max-width: 420px;
   }
   
@@ -118,9 +116,6 @@ img {
   /* sezione steps */
 
   #steps .row{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     max-width: 420px;
   }
   
