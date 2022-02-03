@@ -86,6 +86,15 @@ img {
     background-color: #F2F2D1;
   }
 
+  .row{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
   /* sezione lezioni */
 
   #lezioni .row{
