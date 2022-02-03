@@ -155,30 +155,12 @@ img {
   #why .row>.third {
   width: 100%;
   margin-top: 80px;
-}
+  }
 
   #why .row>.first img,
   #why .row>.second img,
   #why .row>.third img{
     transform: scale(.7, .7);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
