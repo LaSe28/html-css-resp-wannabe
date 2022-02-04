@@ -132,8 +132,9 @@ img {
     width: calc(50% - 4rem);
     margin: 2rem 1rem;
   }
-
+  
   #steps .row>.left img,
+  #steps .row>.central img,
   #steps .row>.right img{
     transform: scale(.7, .7);
   }
@@ -227,6 +228,7 @@ img {
   }
   
   #steps .row>.left img,
+  #steps .row>.central img,
   #steps .row>.right img{
     transform: scale(.7, .7);
   }

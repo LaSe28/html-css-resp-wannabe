@@ -129,6 +129,7 @@ img {
   }
   
   #steps .row>.left img,
+  #steps .row>.central img,
   #steps .row>.right img{
     transform: scale(.7, .7);
   }
